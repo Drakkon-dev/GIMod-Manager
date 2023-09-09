@@ -1,0 +1,8 @@
+{
+    "Title": "Window Title",
+    "GameTitle": "Genshin Impact",
+    "WindowSize": [900, 600],
+    "IconPath": "assets/icon.ico",
+    "AppPath": "Path/to/App/app.exe",
+    "GamePath": "Path/to/Game/game.exe"
+}
