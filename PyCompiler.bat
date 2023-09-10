@@ -3,9 +3,9 @@
 setlocal enabledelayedexpansion
 
 :: Compiler Options
-set "iconpath=assets/icon.ico"
+set "iconpath=src/assets/icon.ico"
 set "pyFile=src/main.py"
-set "name=main"
+set "name=ModManager"
 set "target_dir_name=target"
 set "bin_dis=./%target_dir_name%/bin"
 set "temp_dis=./%target_dir_name%/build"
@@ -22,9 +22,9 @@ set PYTHONOPTIMIZE=1 && pyinstaller ^
     --icon=%iconpath% ^
     --win-private-assemblies ^
     --win-no-prefer-redirects ^
-    --noconsole
+    --uac-admin
 
-:: Yes I know useless stuff but at least it is cool
+:: Yes I know useless stuff but at least it's cool
 set "appPath=%bin_dis%/%name%.exe"
 for %%F in ("%appPath%") do set "fileSizeBytes=%%~zF"
 :: Calculate file size in KB, MB, and GB using PowerShell
