@@ -16,6 +16,7 @@ set PYTHONOPTIMIZE=1 && pyinstaller ^
     --name %name% ^
     --distpath %bin_dis% ^
     --workpath %temp_dis% ^
+    --add-data "src/constants.py;." ^
     --clean ^
     --key=$2y$19$DP7Ad7mckjM.Wwxtl9uCBuHDDyb/B5iKab4LS3EXNqVi3ueCTBike ^
     --onefile ^

@@ -1,11 +1,12 @@
 {
     // This will be the only file with proper comments, because people
     // are meant to edit this file if neccessary
-    "AppTitle": "Mod Manager", // Title on the Mod Manager window
+    "AppTitle": "GIMod Manager", // Title on the Mod Manager window
     "GameName": "Genshin Impact", // Title of the game, in case the title changes later
     "3DmigotoPath": "Path/to/3DMigoto/Directory", // Path to 3D Migoto, the manager will automatically launch it
     "3DMigotoExecutableName": "3DMigoto Loader.exe", // Name of the executable, in case it changes later
-    "PostionRelative": [50, 5], // Relative positon within game window
-    "SizeRelative": [40, 90], // Size of window relative to game window
-    "AnimeGamePROC": "GenshinImpact.exe" // PROC name used for finding the game, for in case it changes later
+    "PostionRelative": [60, 5], // Relative positon within game window
+    "SizeRelative": [35, 90], // Size of window relative to game window
+    "AnimeGamePROC": "GenshinImpact.exe", // PROC name used for finding the game, for in case it changes later
+    "Debug": false // Enables live script reloading if true
 }
