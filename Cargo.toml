@@ -1,0 +1,19 @@
+[package]
+name = "gimm"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.188", features = ["derive"] }
+winapi = { version = "0.3.9", features = ["winuser"] }
+serde_json = "1.0.107"
+glfw = "0.53.0"
+glow = "0.12.3"
+nalgebra-glm = "0.18.0"
+nalgebra = "0.32.3"
+image = "0.24.7"
+
+fps_clock = "2.0.0"
+regex = "1.10.2"
